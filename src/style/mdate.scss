@@ -1,0 +1,67 @@
+$wrapperWidth: 230px;
+
+.mDate-wrapper {
+  width:$wrapperWidth;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 15%);
+  background-color: #fff;
+
+  .mDate-header, .mDate-body {
+    width:100%;
+    text-align: center;
+    th, td{
+      height: 30px;
+      line-height: 30px;
+    }
+    .normal{
+
+    }
+    .active{
+      color:#FFFFFF;
+      background-color: green;
+    }
+    .unnormal{
+      color:#AAAAAA;
+    }
+  }
+
+  .mDate-header {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 14px;
+    .mDate-header-title {
+      display: flex;
+      flex-flow: row nowrap;
+      span {
+        flex:1 1 auto;
+      }
+    }
+    .mDate-header-btns {
+      width:25px;
+      height: 100%;
+    }
+    .preyear {
+      float: left;
+    }
+    .premonth {
+      float: left;
+    }
+    .nextyear {
+      float: right;
+    }
+    .nextmonth {
+      float: right;
+    }
+  }
+
+  .mDate-body {
+    table {
+      width:100%;
+    }
+  }
+}

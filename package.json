@@ -1,0 +1,38 @@
+{
+  "name": "moondate",
+  "version": "1.0.0",
+  "description": "JavaScript date plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeahWLC/moonDate.git"
+  },
+  "keywords": [
+    "date",
+    "plugin"
+  ],
+  "author": "LeahWLC",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "bugs": {
+    "url": "https://github.com/LeahWLC/moonDate/issues"
+  },
+  "homepage": "https://github.com/LeahWLC/moonDate#readme"
+}
