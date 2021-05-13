@@ -4,7 +4,7 @@ JavaScript(ES6) date module
 
 ## Demo
 
-Sample demo. [here!](https://leahwlc.github.io/2048Game/dist/index.html)
+Simple demo. [here!](https://leahwlc.github.io/moonDate/dist/index.html)
 
 ## Import
 
